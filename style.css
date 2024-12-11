@@ -1,0 +1,281 @@
+*,*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    font-family: Oswald;
+    width: 100vw;
+    font-size: 20px;
+    
+}
+header{
+    height: 60vh;
+    width: 100vw;
+    background-image: url(assets/index-background-desktop.png);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    height: 7vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+}
+nav ul{
+    display: flex;
+    width: 30vw;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 0.7em;
+}
+.with_line{
+    border-bottom: 1px solid white;
+}
+nav img{
+    height: 5vh;
+}
+.header_main{
+    height: 53vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20vw;
+}
+.header_text{
+    height: 30vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header_text h1{
+    font-size: 2em;
+}
+.header_text h4{
+    font-size: 0.8em;
+}
+.header_main img{
+    height: 40vh;
+}
+.header_main button{
+    height: 4em;
+    width: 16em;
+    background-color: #68B738;
+    border: none;
+    color: white;
+}
+.section_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+}
+.card{
+    height: 30vh;
+    width: 35vw;
+    background-color:  #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.card p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.card_text{
+    width: 90%;
+    font-size: 0.7rem;
+    margin-left: 7%;
+}
+.section_2{
+    height: 40vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section_2 h2{
+    font-size: 2rem;
+}
+.cards_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+}
+.card_work{
+    height: 20vh;
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+}
+.card_icon{
+    height: 5em;
+    width: 5em;
+    background-color: #68B738;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_icon img{
+    height: 1.8em;
+    width: 1.8em;
+}
+.section_3{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(
+        to top,
+        #F2F2F2 0% 70%,
+        white 70% 100%
+    );
+}
+.section_3 h2{
+    font-size: 2rem;
+}
+.three_left{
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+
+.three_right{
+    display: flex;
+    flex-direction: column;
+}
+.three_cat{
+    display: flex;
+    flex-direction: row;
+}
+.three_cat img:first-of-type{
+    height: 55vh;
+}
+.three_cat img:last-of-type {
+    height: 65vh;
+}
+.three_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.three_money {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.three_info div{
+    width: 40%;
+    height: 100%;
+    border: 1px solid #CDCDCD;
+    text-align: center;
+}
+.create_line{
+    width: 20vw;
+    border-bottom: 2px solid  #CDCDCD;;
+    margin-bottom: 1.5%;
+}
+.nedoslaider{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+.three_left p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.section_4{
+    width: 100vmax;
+    height: 35vh;
+    background-image: url(assets/Rectangle\ 16.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.four_text{
+    height: 55%;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.section_4 img{
+    height: 8vh;
+    margin-right: 10%;
+}
+.four_left{
+    width: 40%;
+}
+.four_right{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul{
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+.first_logo{
+    height: 2vh;
+}
+.last_logo {
+    height: 4vh;
+}
+
+
+
+
+@font-face {
+    font-family: Oswald;
+    src: url(Oswald/Oswald.ttf);
+}
